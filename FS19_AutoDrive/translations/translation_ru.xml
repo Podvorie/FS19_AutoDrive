@@ -90,14 +90,14 @@
 		<text name="gui_ad_findDriver_tooltip"					text="Поиск ближайших водителей (игнорируя пункт назначения)." />
 		<text name="gui_ad_gui_scale"							text="Масштаб HUD AutoDrive " />
 		<text name="gui_ad_gui_scale_tooltip"					text="Оставьте значение по умолчанию и будут использования настройки масштаба в игре." />
-		<text name="gui_ad_notifications"						text="Notifications" />
-		<text name="gui_ad_notifications_text_1"				text="Disabled" />
-		<text name="gui_ad_notifications_text_2"				text="Short" />
-		<text name="gui_ad_notifications_text_3"				text="Default" />
-		<text name="gui_ad_notifications_text_4"				text="Long" />
-		<text name="gui_ad_notifications_text_5"				text="Extra Long" />
-		<text name="gui_ad_notifications_text_6"				text="Endless" />
-		<text name="gui_ad_notifications_tooltip"				text="Display time for notifications" />
+		<text name="gui_ad_notifications"						text="Оповещения" />
+		<text name="gui_ad_notifications_text_1"				text="Отключено" />
+		<text name="gui_ad_notifications_text_2"				text="Короткий" />
+		<text name="gui_ad_notifications_text_3"				text="По умолчанию" />
+		<text name="gui_ad_notifications_text_4"				text="Длинный" />
+		<text name="gui_ad_notifications_text_5"				text="Очень длинный" />
+		<text name="gui_ad_notifications_text_6"				text="Бесконечно" />
+		<text name="gui_ad_notifications_tooltip"				text="Время отображения оповещений" />
 		<text name="gui_ad_exitField"							text="Выезд с поля" />
 		<text name="gui_ad_exitField_tooltip"					text="Способ выезда с поля при разгрузке." />
 		<text name="gui_ad_default"								text="Обычный" />
@@ -164,8 +164,8 @@
 		<text name="gui_ad_iconSetToUse_tooltip"				text="Логотип по умолчанию или свой персональный. - Выбор может быть расширен." />
 		<text name="gui_ad_secondEditorModeAllowed"				text="2-й режим редактора" />
 		<text name="gui_ad_secondEditorModeAllowed_tooltip"		text="Использовать 2-й режим редактора для манипуляции точками вместо удержания LCTRL." />
-		<text name="gui_ad_wideHUD"								text="Wide HUD" />
-		<text name="gui_ad_wideHUD_tooltip"						text="Use wide HUD mode, which also allows a few more setting buttons in the HUD" />
+		<text name="gui_ad_wideHUD"								text="Расширенный HUD" />
+		<text name="gui_ad_wideHUD_tooltip"						text="Использовать расширенный режим HUD, который позволяет использовать еще несколько кнопок настроек в HUD" />
 
 		<text name="gui_ad_settingsPage_title"					text="Общие настройки - AutoDrive" />
 		<text name="gui_ad_vehicleSettingsPage_title"			text="Настройки техники - AutoDrive" />
@@ -199,8 +199,8 @@
 		<text name="gui_ad_debugChannelRender" 					text="Рендеринг" />
 		<text name="gui_ad_debugChannelAll" 					text="Все" />
 		
-		<text name="gui_ad_notificationHistoryTitle" 			text="Notifications" />
-		<text name="button_delete_all" 							text="Delete All" />
+		<text name="gui_ad_notificationHistoryTitle" 			text="Оповещения" />
+		<text name="button_delete_all" 							text="Удалить ВСЕ" />
 
 		<text name="ad_helpCategory_1"							text="AutoDrive" />
 
@@ -273,29 +273,29 @@
 		<text name="ad_helpText_13_05"							text="Так как транспортное средство пытается автоматически найти для ковша идеальное положение погрузки, может случиться так, что оно поднимает передние колеса. Для этого сценария предусмотрено обнаружение, которое проверяет, все ли колеса находятся на земле, и начинает поднимать ковш, если эта проверка возвращает ЛОЖЬ в течение нескольких сотен миллисекунд." />
 
 		
-		<text name="AD_task_pathfinding"						text="Planning path" />
-		<text name="AD_task_catch_up_with_combine"				text="Catching up with combine" />
-		<text name="AD_task_clearcrop"							text="Clearing crop" />
-		<text name="AD_task_drive_to_destination"				text="Driving to destination" />
-		<text name="AD_task_drive_to_vehicle"					text="Driving to target vehicle" />
-		<text name="AD_task_drive_to_combine_pipe"				text="Drive to combine pipe" />
-		<text name="AD_task_unloading_combine"					text="Unloading combine" />
-		<text name="AD_task_reversing_from_combine"				text="Reversing from combine" />
-		<text name="AD_task_waiting_for_space"					text="Waiting for maneuver room" />
-		<text name="AD_task_wait_for_combine_turn"				text="Wait for combine's turn" />
-		<text name="AD_task_drive_to_load_point"				text="Drive to loading point" />
-		<text name="AD_task_drive_to_refuel_point"				text="Drive to refuel station" />
-		<text name="AD_task_stop_and_disable"					text="Stopping" />
-		<text name="AD_task_drive_to_unload_point"				text="Drive to unload point" />
-		<text name="AD_task_wait_for_call"						text="Waiting for call" />
-		<text name="AD_task_chasing_combine"					text="Chaising combine" />	
-		<text name="AD_task_wait_for_combine_pass_by"			text="Letting combine pass by" />	
-		<text name="AD_task_catching_chase_side"				text="Catching side" />	
-		<text name="AD_task_chase_side"							text="Side" />	
-		<text name="AD_task_chase_side_left"					text="left" />	
-		<text name="AD_task_chase_side_rear"					text="rear" />	
-		<text name="AD_task_chase_side_right"					text="right" />		
-		<text name="AD_task_waiting_for_room"					text="Waiting for room" />
-		<text name="AD_task_exiting_field"						text="Exiting field" />
+		<text name="AD_task_pathfinding"						text="Планирование пути" />
+		<text name="AD_task_catch_up_with_combine"				text="Догоняю комбайн" />
+		<text name="AD_task_clearcrop"							text="Очистка культуры" />
+		<text name="AD_task_drive_to_destination"				text="Двигаюсь у точке назначения" />
+		<text name="AD_task_drive_to_vehicle"					text="Двигаюсь за целевым транспортом" />
+		<text name="AD_task_drive_to_combine_pipe"				text="Двигаюсь к трубе комбайна" />
+		<text name="AD_task_unloading_combine"					text="Разгрузка комбайна" />
+		<text name="AD_task_reversing_from_combine"				text="Разворот от комбайна" />
+		<text name="AD_task_waiting_for_space"					text="Ожидаю маневр" />
+		<text name="AD_task_wait_for_combine_turn"				text="Ожидаю поворот комбайна" />
+		<text name="AD_task_drive_to_load_point"				text="Двигаюсь к точке загрузки" />
+		<text name="AD_task_drive_to_refuel_point"				text="Двигаюсь с заправочной станции" />
+		<text name="AD_task_stop_and_disable"					text="Остановка" />
+		<text name="AD_task_drive_to_unload_point"				text="Двигаюсь к точке разгрузки" />
+		<text name="AD_task_wait_for_call"						text="Ожидаю звонка" />
+		<text name="AD_task_chasing_combine"					text="Двигаюсь к комбайну" />	
+		<text name="AD_task_wait_for_combine_pass_by"			text="Двигаюсь мимо комбайна" />	
+		<text name="AD_task_catching_chase_side"				text="Со стороны разгрузки" />	
+		<text name="AD_task_chase_side"							text="Сторона" />	
+		<text name="AD_task_chase_side_left"					text="слева" />	
+		<text name="AD_task_chase_side_rear"					text="сзади" />	
+		<text name="AD_task_chase_side_right"					text="справа" />		
+		<text name="AD_task_waiting_for_room"					text="Ожидаю" />
+		<text name="AD_task_exiting_field"						text="Выезжаю с поля" />
 	</texts>
 </l10n>
